@@ -15,7 +15,7 @@ def preprocess_image(path):
     a /= 255.0
     return a
 
-image_path = '/content/drive/MyDrive/Colab Notebooks/dataset/test/sunrise_7.jpg'
+image_path = 'dataset/test/sunrise_7.jpg'
 image = preprocess_image(image_path)
 predict = model.predict(image)
 result = np.argmax(predict)
