@@ -12,7 +12,6 @@ import os
 
 img_width=256
 img_height=256
-weather = ['Cloudy','Foggy','Rainy','Shine','Sunrise']
 TRAINING_DIR = '/content/drive/MyDrive/Colab Notebooks/dataset/train/'
 VALIDATION_DIR = '/content/drive/MyDrive/Colab Notebooks/dataset/validation/'
 
