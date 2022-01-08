@@ -3,13 +3,11 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
-from skimage.transform import resize
-import pandas as pd
 
 img_width=256
 img_height=256
-TRAINING_DIR = '/content/drive/MyDrive/Colab Notebooks/dataset/train/'
-VALIDATION_DIR = '/content/drive/MyDrive/Colab Notebooks/dataset/validation/'
+TRAINING_DIR = 'dataset/train/'
+VALIDATION_DIR = 'dataset/validation/'
 
 train_datagen = ImageDataGenerator(rescale = 1/255.0,
                                    rotation_range=30,
