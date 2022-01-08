@@ -5,10 +5,6 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 from skimage.transform import resize
 import pandas as pd
-import numpy as np
-from keras.preprocessing.image import load_img, img_to_array
-import matplotlib.pyplot as plt
-import os
 
 img_width=256
 img_height=256
