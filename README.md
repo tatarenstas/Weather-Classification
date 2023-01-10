@@ -1,2 +1,2 @@
 # Weather-Classification
-Weather Clacification on Python
+Weather Classification on Python
